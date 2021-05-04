@@ -3,7 +3,7 @@
 const express = require("express");
 const app = express();
 
-const VERSION = 5;
+const VERSION = 6;
 
 app.get("/", (req, res) => {
   res.send(`Current version: ${VERSION}`);
